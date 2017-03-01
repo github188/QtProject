@@ -36,6 +36,7 @@ private slots:
     void slotUpdateClock();
     void slotSetMainPage();
     void slotSetTisseHandle();
+    void slotSetSysClear();
 private:
     Ui::FrmMain *ui;
     QTimer *clockTimer;

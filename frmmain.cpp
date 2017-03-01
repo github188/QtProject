@@ -46,6 +46,7 @@ FrmMain::FrmMain(QWidget *parent) :
 
         connect(ui->btnMainPage,SIGNAL(clicked(bool)),this,SLOT(slotSetMainPage()));
         connect(ui->btnTissueHandle,SIGNAL(clicked(bool)),this,SLOT(slotSetTisseHandle()));
+        connect(ui->btnSysClear,SIGNAL(clicked(bool)),this,SLOT(slotSetSysClear()));
 }
 void FrmMain::slotSetMainPage()
 {
@@ -54,6 +55,10 @@ void FrmMain::slotSetMainPage()
 void FrmMain::slotSetTisseHandle()
 {
     ui->stackedWidget->setCurrentIndex(1);
+}
+void FrmMain::slotSetSysClear()
+{
+    ui->stackedWidget->setCurrentIndex(2);
 }
 FrmMain::~FrmMain()
 {
