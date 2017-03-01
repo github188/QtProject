@@ -167,18 +167,16 @@ QComboBox::drop-down,QDateEdit,QDateTimeEdit::drop-down {
 QComboBox::down-arrow,QDateEdit,QDateTimeEdit::down-arrow {
         image: url(:/images/image/array_down.png);
 }
-
-QProgressBar {
-	border-radius: 5px;
-	text-align: center;
-	border: 1px solid #50A3F0;
+QProgressBar:vertical{
+   border-radius:5px;
+   background-color:lightgray;
+   text-align:center
+}
+QProgressBar::chunk:vertical{
+   background-color:#00FF00;
+   margin:1px;
 }
 
-QProgressBar::chunk {
-	width: 5px; 
-	margin: 0.5px;
-	background-color: #0F7DBE;
-}
 
 QSlider::groove:horizontal,QSlider::add-page:horizontal { 
 	background: #808080; 

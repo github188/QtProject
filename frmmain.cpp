@@ -138,7 +138,6 @@ void FrmMain::InitStyle()
     clockTimer->start(500);
     connect(clockTimer,SIGNAL(timeout()),this,SLOT(slotUpdateClock()));
     ui->lab_SoftTitle->setText("全自动快速组织处理系统");
-
 }
 void FrmMain::slotUpdateClock()
 {
