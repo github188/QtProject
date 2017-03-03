@@ -45,7 +45,8 @@ HEADERS  += frmmain.h \
     QsLog/QsLogDestConsole.h \
     QsLog/QsLogDest.h \
     QsLog/QsLog.h \
-    qcustomplot.h
+    qcustomplot.h \
+    main.rc
 
 FORMS    += frmmain.ui
 MOC_DIR=temp/moc
@@ -70,3 +71,6 @@ DEFINES += QS_LOG_SEPARATE_THREAD # messages are queued and written from a separ
 # In order to do so, uncomment the following line.
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
+
+DISTFILES += \
+    main.ico
