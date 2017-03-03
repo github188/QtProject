@@ -195,7 +195,7 @@
          <item row="0" column="0">
           <widget class="QStackedWidget" name="stackedWidget">
            <property name="currentIndex">
-            <number>22</number>
+            <number>0</number>
            </property>
            <widget class="QWidget" name="page_main">
             <layout class="QGridLayout" name="gridLayout_7">
@@ -232,7 +232,7 @@ padding:1px 1px 1px 5px;</string>
                  <rect>
                   <x>10</x>
                   <y>50</y>
-                  <width>51</width>
+                  <width>61</width>
                   <height>61</height>
                  </rect>
                 </property>
@@ -261,9 +261,9 @@ background-color:  rgb(0, 170, 0);
                <widget class="QToolButton" name="btnSysClear">
                 <property name="geometry">
                  <rect>
-                  <x>80</x>
+                  <x>90</x>
                   <y>50</y>
-                  <width>51</width>
+                  <width>61</width>
                   <height>61</height>
                  </rect>
                 </property>
@@ -427,7 +427,7 @@ padding:1px 1px 1px 5px;</string>
                 <string notr="true">border: 1px solid black;
 background-color:#FFF0F5;</string>
                </property>
-               <widget class="QToolButton" name="toolButton_14">
+               <widget class="QToolButton" name="btnAutoClearMgr">
                 <property name="geometry">
                  <rect>
                   <x>120</x>
@@ -535,7 +535,7 @@ padding:1px 1px 1px 5px;</string>
                  <string>药液管理</string>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_21">
+               <widget class="QToolButton" name="btnRealTimeMonitor">
                 <property name="geometry">
                  <rect>
                   <x>10</x>
@@ -566,7 +566,7 @@ background-color:  rgb(0, 170, 0);
                  <bool>true</bool>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_25">
+               <widget class="QToolButton" name="btnSoupChange">
                 <property name="geometry">
                  <rect>
                   <x>80</x>
@@ -584,7 +584,7 @@ background-color:  rgb(0, 170, 0);</string>
                  <string>药液更换</string>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_24">
+               <widget class="QToolButton" name="btnStatisticalAnalysis">
                 <property name="geometry">
                  <rect>
                   <x>150</x>
@@ -599,7 +599,7 @@ color:white;
 background-color:  rgb(0, 170, 0);</string>
                 </property>
                 <property name="text">
-                 <string/>
+                 <string>统计分析</string>
                 </property>
                </widget>
               </widget>
@@ -629,7 +629,7 @@ padding:1px 1px 1px 5px;</string>
                  <string>系统管理</string>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_42">
+               <widget class="QToolButton" name="btnOutMgr">
                 <property name="geometry">
                  <rect>
                   <x>150</x>
@@ -678,12 +678,12 @@ background-color:  rgb(0, 170, 0);
                  <bool>true</bool>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_38">
+               <widget class="QToolButton" name="btnYunServerMgr">
                 <property name="geometry">
                  <rect>
                   <x>10</x>
                   <y>130</y>
-                  <width>51</width>
+                  <width>71</width>
                   <height>61</height>
                  </rect>
                 </property>
@@ -709,12 +709,12 @@ background-color:  rgb(0, 170, 0);
                  <bool>true</bool>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_40">
+               <widget class="QToolButton" name="btnBaoMaiSet">
                 <property name="geometry">
                  <rect>
-                  <x>80</x>
+                  <x>90</x>
                   <y>130</y>
-                  <width>51</width>
+                  <width>61</width>
                   <height>61</height>
                  </rect>
                 </property>
@@ -727,7 +727,7 @@ background-color:  rgb(0, 170, 0);</string>
                  <string>包埋配置</string>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_43">
+               <widget class="QToolButton" name="btnLimitMgr">
                 <property name="geometry">
                  <rect>
                   <x>80</x>
@@ -753,12 +753,12 @@ background-color:  rgb(0, 170, 0);</string>
                 <string notr="true">border: 1px solid black;
 background-color:#FFF0F5;</string>
                </property>
-               <widget class="QToolButton" name="toolButton_32">
+               <widget class="QToolButton" name="btnErrorLog">
                 <property name="geometry">
                  <rect>
-                  <x>10</x>
+                  <x>120</x>
                   <y>130</y>
-                  <width>51</width>
+                  <width>91</width>
                   <height>61</height>
                  </rect>
                 </property>
@@ -784,12 +784,12 @@ background-color:  rgb(0, 170, 0);
                  <bool>true</bool>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_33">
+               <widget class="QToolButton" name="btnProcessLog">
                 <property name="geometry">
                  <rect>
                   <x>10</x>
                   <y>50</y>
-                  <width>51</width>
+                  <width>91</width>
                   <height>61</height>
                  </rect>
                 </property>
@@ -803,7 +803,7 @@ background-color:  rgb(0, 170, 0);
 </string>
                 </property>
                 <property name="text">
-                 <string>程序记录</string>
+                 <string>程序使用记录</string>
                 </property>
                 <property name="autoRepeat">
                  <bool>false</bool>
@@ -815,12 +815,12 @@ background-color:  rgb(0, 170, 0);
                  <bool>true</bool>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_36">
+               <widget class="QToolButton" name="btnTissueHandleLog">
                 <property name="geometry">
                  <rect>
-                  <x>150</x>
-                  <y>50</y>
-                  <width>51</width>
+                  <x>10</x>
+                  <y>130</y>
+                  <width>91</width>
                   <height>61</height>
                  </rect>
                 </property>
@@ -830,15 +830,15 @@ color:white;
 background-color:  rgb(0, 170, 0);</string>
                 </property>
                 <property name="text">
-                 <string>输出配置</string>
+                 <string>组织处理记录</string>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_37">
+               <widget class="QToolButton" name="btnSoupChangeLog">
                 <property name="geometry">
                  <rect>
-                  <x>80</x>
+                  <x>120</x>
                   <y>50</y>
-                  <width>51</width>
+                  <width>91</width>
                   <height>61</height>
                  </rect>
                 </property>
@@ -848,7 +848,7 @@ color:white;
 background-color:  rgb(0, 170, 0);</string>
                 </property>
                 <property name="text">
-                 <string>药液记录</string>
+                 <string>药液更换记录</string>
                 </property>
                </widget>
                <widget class="QLabel" name="label_38">
@@ -897,7 +897,7 @@ padding:1px 1px 1px 5px;</string>
                  <string>使用帮助</string>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_31">
+               <widget class="QToolButton" name="btnRepair">
                 <property name="geometry">
                  <rect>
                   <x>80</x>
@@ -915,7 +915,7 @@ background-color:  rgb(0, 170, 0);</string>
                  <string>维修保养</string>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_30">
+               <widget class="QToolButton" name="btnFault">
                 <property name="geometry">
                  <rect>
                   <x>150</x>
@@ -933,7 +933,7 @@ background-color:  rgb(0, 170, 0);</string>
                  <string>故障排查</string>
                 </property>
                </widget>
-               <widget class="QToolButton" name="toolButton_27">
+               <widget class="QToolButton" name="btnUseInfo">
                 <property name="geometry">
                  <rect>
                   <x>10</x>
@@ -953,6 +953,37 @@ background-color:  rgb(0, 170, 0);
                 </property>
                 <property name="text">
                  <string>使用说明</string>
+                </property>
+                <property name="autoRepeat">
+                 <bool>false</bool>
+                </property>
+                <property name="toolButtonStyle">
+                 <enum>Qt::ToolButtonTextOnly</enum>
+                </property>
+                <property name="autoRaise">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QToolButton" name="btnZuZhiOperate">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>130</y>
+                  <width>121</width>
+                  <height>61</height>
+                 </rect>
+                </property>
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border:none;
+color:white;
+background-color:  rgb(0, 170, 0);
+</string>
+                </property>
+                <property name="text">
+                 <string>组织处理操作指导书</string>
                 </property>
                 <property name="autoRepeat">
                  <bool>false</bool>
@@ -7382,7 +7413,13 @@ padding:1px 1px 1px 5px;</string>
                   <property name="minimumSize">
                    <size>
                     <width>75</width>
-                    <height>30</height>
+                    <height>32</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>32</height>
                    </size>
                   </property>
                   <property name="text">
@@ -7405,7 +7442,13 @@ padding:1px 1px 1px 5px;</string>
                   <property name="minimumSize">
                    <size>
                     <width>75</width>
-                    <height>30</height>
+                    <height>32</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>32</height>
                    </size>
                   </property>
                   <property name="text">
@@ -7705,7 +7748,13 @@ padding:1px 1px 1px 5px;</string>
                   <property name="minimumSize">
                    <size>
                     <width>75</width>
-                    <height>30</height>
+                    <height>32</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>32</height>
                    </size>
                   </property>
                   <property name="text">
@@ -7728,7 +7777,13 @@ padding:1px 1px 1px 5px;</string>
                   <property name="minimumSize">
                    <size>
                     <width>75</width>
-                    <height>30</height>
+                    <height>32</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>32</height>
                    </size>
                   </property>
                   <property name="text">
@@ -7892,6 +7947,11 @@ padding:1px 1px 1px 5px;</string>
              </item>
              <item>
               <widget class="QWidget" name="widget_55" native="true">
+               <property name="styleSheet">
+                <string notr="true">QLabel{
+	padding:1px 3px 1px 3px;
+}</string>
+               </property>
                <layout class="QGridLayout" name="gridLayout_34">
                 <property name="topMargin">
                  <number>0</number>
@@ -8048,7 +8108,7 @@ padding:5px 1px;</string>
                          <widget class="QLabel" name="label_179">
                           <property name="minimumSize">
                            <size>
-                            <width>60</width>
+                            <width>68</width>
                             <height>0</height>
                            </size>
                           </property>
@@ -8235,7 +8295,7 @@ padding:5px 1px;</string>
                          <widget class="QLabel" name="label_186">
                           <property name="minimumSize">
                            <size>
-                            <width>60</width>
+                            <width>68</width>
                             <height>0</height>
                            </size>
                           </property>
@@ -8422,7 +8482,7 @@ padding:5px 1px;</string>
                          <widget class="QLabel" name="label_174">
                           <property name="minimumSize">
                            <size>
-                            <width>60</width>
+                            <width>68</width>
                             <height>0</height>
                            </size>
                           </property>
@@ -11377,7 +11437,13 @@ padding:1px 1px 1px 5px;</string>
                   <property name="minimumSize">
                    <size>
                     <width>75</width>
-                    <height>30</height>
+                    <height>32</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>32</height>
                    </size>
                   </property>
                   <property name="text">
@@ -11400,7 +11466,13 @@ padding:1px 1px 1px 5px;</string>
                   <property name="minimumSize">
                    <size>
                     <width>75</width>
-                    <height>30</height>
+                    <height>32</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>32</height>
                    </size>
                   </property>
                   <property name="text">
@@ -11697,7 +11769,13 @@ padding:1px 1px 1px 5px;</string>
                   <property name="minimumSize">
                    <size>
                     <width>75</width>
-                    <height>35</height>
+                    <height>32</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>32</height>
                    </size>
                   </property>
                   <property name="text">
@@ -11720,7 +11798,13 @@ padding:1px 1px 1px 5px;</string>
                   <property name="minimumSize">
                    <size>
                     <width>75</width>
-                    <height>35</height>
+                    <height>32</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>32</height>
                    </size>
                   </property>
                   <property name="text">
@@ -12269,7 +12353,13 @@ color:black;</string>
                   <property name="minimumSize">
                    <size>
                     <width>75</width>
-                    <height>30</height>
+                    <height>32</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>32</height>
                    </size>
                   </property>
                   <property name="text">
@@ -12292,7 +12382,13 @@ color:black;</string>
                   <property name="minimumSize">
                    <size>
                     <width>75</width>
-                    <height>30</height>
+                    <height>32</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>32</height>
                    </size>
                   </property>
                   <property name="text">
@@ -13153,6 +13249,12 @@ padding:1px 1px 1px 5px;</string>
                     <height>35</height>
                    </size>
                   </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>35</height>
+                   </size>
+                  </property>
                   <property name="text">
                    <string>导出</string>
                   </property>
@@ -13176,6 +13278,12 @@ padding:1px 1px 1px 5px;</string>
                     <height>35</height>
                    </size>
                   </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>35</height>
+                   </size>
+                  </property>
                   <property name="text">
                    <string>删除</string>
                   </property>
@@ -13190,6 +13298,12 @@ padding:1px 1px 1px 5px;</string>
                   <property name="minimumSize">
                    <size>
                     <width>75</width>
+                    <height>35</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
                     <height>35</height>
                    </size>
                   </property>
@@ -14417,7 +14531,7 @@ padding:1px 1px 1px 5px;</string>
              </item>
             </layout>
            </widget>
-           <widget class="QWidget" name="page_ZuoZhiOperate">
+           <widget class="QWidget" name="page_ZuZhiOperate">
             <layout class="QVBoxLayout" name="verticalLayout_104">
              <property name="leftMargin">
               <number>0</number>

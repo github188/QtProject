@@ -46,6 +46,38 @@ private slots:
     void slotSetClear2();
     //进入处理缸控制界面
     void slotSetOperateControl();
+    //进入组织处理程序管理界面
+    void slotSetTissueHandleMgr();
+    //进入自动清洗程序管理界面
+    void slotSetAutoClearMgr();
+    //进入实时监控界面
+    void slotSetRealTimeMonitor();
+    //进入药液更换界面
+    void slotSetSoupChange();
+    //进入权限配置界面
+    void slotSetLimitMgr();
+    //进入输出配置界面
+    void slotSetOutMgr();
+    //进入云服务器配置界面
+    void slotSetYunServer();
+    //进入包埋配置界面
+    void slotSetBaoMaiMgr();
+    void slotSetStatisticalAnalysis();
+    void slotSetProcessLog();
+    //进入药液更换记录界面
+    void slotSetSoupChangeLog();
+    //进入组织处理记录界面
+    void slotSetTissueHandleLog();
+    //进入故障记录界面
+    void slotSetErrorLog();
+    //进入程序操作记录界面
+    void slotSetUseInfo();
+    //进入药液更换记录界面
+    void slotSetZuZhiOperate();
+    //进入组织处理记录界面
+    void slotSetRepair();
+    //进入故障记录界面
+    void slotSetFalut();
 private:
     Ui::FrmMain *ui;
     QTimer *clockTimer;

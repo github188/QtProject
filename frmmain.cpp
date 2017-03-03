@@ -52,6 +52,24 @@ FrmMain::FrmMain(QWidget *parent) :
         connect(ui->btnClear1,SIGNAL(clicked(bool)),this,SLOT(slotSetClear1()));
         connect(ui->btnClear2,SIGNAL(clicked(bool)),this,SLOT(slotSetClear2()));
         connect(ui->btnOperateControl,SIGNAL(clicked(bool)),this,SLOT(slotSetOperateControl()));
+        connect(ui->btnTissueHandleMgr,SIGNAL(clicked(bool)),this,SLOT(slotSetTissueHandleMgr()));
+        connect(ui->btnAutoClearMgr,SIGNAL(clicked(bool)),this,SLOT(slotSetAutoClearMgr()));
+        connect(ui->btnRealTimeMonitor,SIGNAL(clicked(bool)),this,SLOT(slotSetRealTimeMonitor()));
+        connect(ui->btnSoupChange,SIGNAL(clicked(bool)),this,SLOT(slotSetSoupChange()));
+        connect(ui->btnLimitMgr,SIGNAL(clicked(bool)),this,SLOT(slotSetLimitMgr()));
+        connect(ui->btnOutMgr,SIGNAL(clicked(bool)),this,SLOT(slotSetOutMgr()));
+        connect(ui->btnYunServerMgr,SIGNAL(clicked(bool)),this,SLOT(slotSetYunServer()));
+        connect(ui->btnBaoMaiSet,SIGNAL(clicked(bool)),this,SLOT(slotSetBaoMaiMgr()));
+        connect(ui->btnStatisticalAnalysis,SIGNAL(clicked(bool)),this,SLOT(slotSetStatisticalAnalysis()));
+        connect(ui->btnProcessLog,SIGNAL(clicked(bool)),this,SLOT(slotSetProcessLog()));
+        connect(ui->btnSoupChangeLog,SIGNAL(clicked(bool)),this,SLOT(slotSetSoupChangeLog()));
+        connect(ui->btnTissueHandleLog,SIGNAL(clicked(bool)),this,SLOT(slotSetTissueHandleLog()));
+        connect(ui->btnErrorLog,SIGNAL(clicked(bool)),this,SLOT(slotSetErrorLog()));
+        connect(ui->btnUseInfo,SIGNAL(clicked(bool)),this,SLOT(slotSetUseInfo()));
+        connect(ui->btnZuZhiOperate,SIGNAL(clicked(bool)),this,SLOT(slotSetZuZhiOperate()));
+        connect(ui->btnRepair,SIGNAL(clicked(bool)),this,SLOT(slotSetRepair()));
+        connect(ui->btnFault,SIGNAL(clicked(bool)),this,SLOT(slotSetFalut()));
+        slotSetMainPage();
 }
 void FrmMain::slotSetMainPage()
 {
@@ -90,7 +108,91 @@ void FrmMain::slotSetOperateControl()
 {
     ui->stackedWidget->setCurrentWidget(ui->page_OperateControl);
 }
-
+//进入组织处理程序管理界面
+void FrmMain::slotSetTissueHandleMgr()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_TissueHandleMgr);
+}
+//进入自动清洗程序管理界面
+void FrmMain::slotSetAutoClearMgr()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_AutoClearMgr);
+}
+//进入实时监控界面
+void FrmMain::slotSetRealTimeMonitor()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_RealTimeMonitor);
+}
+//进入药液更换界面
+void FrmMain::slotSetSoupChange()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_SoupChange);
+}
+//进入权限配置界面
+void FrmMain::slotSetLimitMgr()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_LimitMgr);
+}
+//进入输出配置界面
+void FrmMain::slotSetOutMgr()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_ErrorOut);
+}
+//进入云服务器配置界面
+void FrmMain::slotSetYunServer()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_YunServerMgr);
+}
+//进入包埋配置界面
+void FrmMain::slotSetBaoMaiMgr()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_BaoMaiSet);
+}
+//进入药液管理统计分析界面
+void FrmMain::slotSetStatisticalAnalysis()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_StatisticalAnalysis);
+}
+//进入程序操作记录界面
+void FrmMain::slotSetProcessLog()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_ProcessLog);
+}
+//进入药液更换记录界面
+void FrmMain::slotSetSoupChangeLog()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_SoupChangeLog);
+}
+//进入组织处理记录界面
+void FrmMain::slotSetTissueHandleLog()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_TissueHandleLog);
+}
+//进入故障记录界面
+void FrmMain::slotSetErrorLog()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_ErrorLog);
+}
+//进入程序操作记录界面
+void FrmMain::slotSetUseInfo()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_UseInfo);
+}
+//进入药液更换记录界面
+void FrmMain::slotSetZuZhiOperate()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_ZuZhiOperate);
+}
+//进入组织处理记录界面
+void FrmMain::slotSetRepair()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_Repair);
+}
+//进入故障记录界面
+void FrmMain::slotSetFalut()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_Falut);
+}
 FrmMain::~FrmMain()
 {
     delete ui;
