@@ -47,19 +47,50 @@ FrmMain::FrmMain(QWidget *parent) :
         connect(ui->btnMainPage,SIGNAL(clicked(bool)),this,SLOT(slotSetMainPage()));
         connect(ui->btnTissueHandle,SIGNAL(clicked(bool)),this,SLOT(slotSetTisseHandle()));
         connect(ui->btnSysClear,SIGNAL(clicked(bool)),this,SLOT(slotSetSysClear()));
+        connect(ui->btnDehydration,SIGNAL(clicked(bool)),this,SLOT(slotSetDehydration()));
+        connect(ui->btnWixdip,SIGNAL(clicked(bool)),this,SLOT(slotSetWixdip()));
+        connect(ui->btnClear1,SIGNAL(clicked(bool)),this,SLOT(slotSetClear1()));
+        connect(ui->btnClear2,SIGNAL(clicked(bool)),this,SLOT(slotSetClear2()));
+        connect(ui->btnOperateControl,SIGNAL(clicked(bool)),this,SLOT(slotSetOperateControl()));
 }
 void FrmMain::slotSetMainPage()
 {
-    ui->stackedWidget->setCurrentIndex(0);
+    ui->stackedWidget->setCurrentWidget(ui->page_main);
 }
 void FrmMain::slotSetTisseHandle()
 {
-    ui->stackedWidget->setCurrentIndex(1);
+    ui->stackedWidget->setCurrentWidget(ui->page_TissueHandle);
 }
 void FrmMain::slotSetSysClear()
 {
-    ui->stackedWidget->setCurrentIndex(2);
+    ui->stackedWidget->setCurrentWidget(ui->page_SysClear);
 }
+//进入脱水操作界面
+void FrmMain::slotSetDehydration()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_Dehydration);
+}
+//进入浸蜡操作界面
+void FrmMain::slotSetWixdip()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_Wixdip);
+}
+//进入清洗1操作界面
+void FrmMain::slotSetClear1()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_Clear1);
+}
+//进入清洗1操作界面
+void FrmMain::slotSetClear2()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_Clear2);
+}
+//进入处理缸控制界面
+void FrmMain::slotSetOperateControl()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_OperateControl);
+}
+
 FrmMain::~FrmMain()
 {
     delete ui;

@@ -72,4 +72,5 @@ DEFINES += QS_LOG_SEPARATE_THREAD # messages are queued and written from a separ
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 DISTFILES += \
-    main.ico
+    main.ico \
+    debug/images/logo.ico

@@ -37,6 +37,15 @@ private slots:
     void slotSetMainPage();
     void slotSetTisseHandle();
     void slotSetSysClear();
+    void slotSetDehydration();
+    //进入浸蜡操作界面
+    void slotSetWixdip();
+    //进入清洗1操作界面
+    void slotSetClear1();
+    //进入清洗1操作界面
+    void slotSetClear2();
+    //进入处理缸控制界面
+    void slotSetOperateControl();
 private:
     Ui::FrmMain *ui;
     QTimer *clockTimer;
