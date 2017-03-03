@@ -57,8 +57,7 @@ INCLUDEPATH += $$PWD/DATA
 INCLUDEPATH += $$PWD
 win32:RC_FILE=main.rc
 
-RESOURCES += \
-    rc.qrc
+RESOURCES += rc.qrc
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked as deprecated (the exact warnings

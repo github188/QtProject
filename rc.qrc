@@ -71,9 +71,6 @@
         <file>image/msg_question.png</file>
         <file>image/next.png</file>
         <file>image/pre.png</file>
-        <file>image/QQ截图20140325215332.png</file>
-        <file>image/QQ截图20140326092613.png</file>
-        <file>image/QQ截图20140326101513.png</file>
         <file>image/question.png</file>
         <file>image/radio_normal.png</file>
         <file>image/radio_normal_disable.png</file>
@@ -101,13 +98,16 @@
         <file>image/tree2.png</file>
         <file>image/update.png</file>
         <file>image/windowShadow.png</file>
-        <file>image/报警.gif</file>
         <file>image/open_file.ico</file>
         <file>image/new_file..ico</file>
         <file>image/print.ico</file>
         <file>image/homescreen.ico</file>
         <file>image/start.ico</file>
         <file>image/stop.ico</file>
+        <file>image/delete.ico</file>
+        <file>image/2007_excel_microsoft_office.ico</file>
+        <file>image/clear.ico</file>
+        <file>image/disk_save.ico</file>
     </qresource>
     <qresource prefix="/qss">
         <file>qss/black.css</file>
