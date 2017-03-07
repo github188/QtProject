@@ -69,6 +69,7 @@ FrmMain::FrmMain(QWidget *parent) :
         connect(ui->btnZuZhiOperate,SIGNAL(clicked(bool)),this,SLOT(slotSetZuZhiOperate()));
         connect(ui->btnRepair,SIGNAL(clicked(bool)),this,SLOT(slotSetRepair()));
         connect(ui->btnFault,SIGNAL(clicked(bool)),this,SLOT(slotSetFalut()));
+        connect(ui->btnDatabase,SIGNAL(clicked(bool)),this,SLOT(slotSetDatabase()));
         slotSetMainPage();
         //on_btnMenu_Max_clicked();
         this->showFullScreen();
@@ -194,6 +195,11 @@ void FrmMain::slotSetRepair()
 void FrmMain::slotSetFalut()
 {
     ui->stackedWidget->setCurrentWidget(ui->page_Falut);
+}
+//进入数据库管理界面
+void FrmMain::slotSetDatabase()
+{
+    ui->stackedWidget->setCurrentWidget(ui->page_database);
 }
 FrmMain::~FrmMain()
 {

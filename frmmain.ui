@@ -195,7 +195,7 @@
          <item row="0" column="0">
           <widget class="QStackedWidget" name="stackedWidget">
            <property name="currentIndex">
-            <number>0</number>
+            <number>26</number>
            </property>
            <widget class="QWidget" name="page_main">
             <layout class="QGridLayout" name="gridLayout_7">
@@ -342,8 +342,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -388,8 +388,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -478,8 +478,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -645,8 +645,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -693,8 +693,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -734,8 +734,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -776,8 +776,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -822,8 +822,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -982,8 +982,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1034,8 +1034,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1074,8 +1074,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1120,8 +1120,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1280,8 +1280,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1332,8 +1332,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1380,8 +1380,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1421,8 +1421,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1582,8 +1582,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1630,8 +1630,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1672,8 +1672,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1714,8 +1714,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1875,8 +1875,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1923,8 +1923,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1965,8 +1965,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -2011,8 +2011,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -2023,6 +2023,48 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="autoRaise">
                         <bool>true</bool>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="1" column="1">
+                      <widget class="QToolButton" name="btnDatabase">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>80</width>
+                         <height>80</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>100</width>
+                         <height>100</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border:none;
+</string>
+                       </property>
+                       <property name="text">
+                        <string>数据库管理</string>
+                       </property>
+                       <property name="icon">
+                        <iconset resource="rc.qrc">
+                         <normaloff>:/images/image/database.ico</normaloff>:/images/image/database.ico</iconset>
+                       </property>
+                       <property name="iconSize">
+                        <size>
+                         <width>60</width>
+                         <height>60</height>
+                        </size>
+                       </property>
+                       <property name="toolButtonStyle">
+                        <enum>Qt::ToolButtonTextUnderIcon</enum>
                        </property>
                       </widget>
                      </item>
@@ -2178,8 +2220,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -2226,8 +2268,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -2314,8 +2356,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>60</width>
+                         <height>60</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -16327,6 +16369,744 @@ padding:1px 1px 1px 5px;</string>
                 </size>
                </property>
               </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_database">
+            <layout class="QGridLayout" name="gridLayout_86">
+             <item row="0" column="0">
+              <layout class="QHBoxLayout" name="horizontalLayout_72">
+               <item>
+                <widget class="QToolBox" name="toolBox">
+                 <property name="maximumSize">
+                  <size>
+                   <width>200</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="autoFillBackground">
+                  <bool>false</bool>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"/>
+                 </property>
+                 <property name="inputMethodHints">
+                  <set>Qt::ImhNone</set>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::NoFrame</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Sunken</enum>
+                 </property>
+                 <property name="midLineWidth">
+                  <number>0</number>
+                 </property>
+                 <property name="currentIndex">
+                  <number>0</number>
+                 </property>
+                 <property name="tabSpacing">
+                  <number>6</number>
+                 </property>
+                 <widget class="QWidget" name="page_paramater">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>183</width>
+                    <height>450</height>
+                   </rect>
+                  </property>
+                  <attribute name="label">
+                   <string>参数数据库</string>
+                  </attribute>
+                  <layout class="QVBoxLayout" name="verticalLayout_44">
+                   <item>
+                    <widget class="QToolButton" name="btnCenterControl">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>集控中心表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="btnOnceDevice">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>一次设备表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="btnSecondDevice">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>二次设备表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="btnSerialPipe">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>串口通道表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="btnSerialPipe1">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>串口通道表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="btnSocketpipe">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>以太网通道表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_10">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>规约参数表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_11">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>设备遥测属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_12">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>设备遥信属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_13">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>设备遥脉属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_14">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>设备遥控属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_15">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>设备遥调属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer_33">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>18</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_systemconfig">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>200</width>
+                    <height>393</height>
+                   </rect>
+                  </property>
+                  <attribute name="label">
+                   <string>系统设置</string>
+                  </attribute>
+                  <layout class="QVBoxLayout" name="verticalLayout_80">
+                   <item>
+                    <widget class="QToolButton" name="toolButton_3">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>人员管理属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_16">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>角色管理属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer_34">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>300</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_historydata">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>200</width>
+                    <height>393</height>
+                   </rect>
+                  </property>
+                  <attribute name="label">
+                   <string>历史数据库</string>
+                  </attribute>
+                  <layout class="QVBoxLayout" name="verticalLayout_85">
+                   <item>
+                    <widget class="QToolButton" name="toolButton_17">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>历史遥测属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_18">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>历史遥信属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_19">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>历史遥脉属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_20">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>历史遥控属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_21">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>历史遥调属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer_35">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>192</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="dictionaryDatabase">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>200</width>
+                    <height>393</height>
+                   </rect>
+                  </property>
+                  <attribute name="label">
+                   <string>字典数据库</string>
+                  </attribute>
+                  <layout class="QVBoxLayout" name="verticalLayout_31">
+                   <item>
+                    <widget class="QToolButton" name="toolButton_2">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>数据字典参数表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer_32">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_realdata">
+                  <attribute name="label">
+                   <string>实时数据库</string>
+                  </attribute>
+                  <layout class="QVBoxLayout" name="verticalLayout_88">
+                   <item>
+                    <widget class="QToolButton" name="toolButton_25">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>实时遥测属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_24">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>实时遥信属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_23">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>实时遥脉属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_26">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>实时遥控属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_22">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>实时遥调属性表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer_36">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>192</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_event">
+                  <attribute name="label">
+                   <string>事项数据库</string>
+                  </attribute>
+                  <layout class="QVBoxLayout" name="verticalLayout_93">
+                   <item>
+                    <widget class="QToolButton" name="toolButton_27">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>事项数据库表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer_37">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>336</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_logdata">
+                  <attribute name="label">
+                   <string>日志数据库表</string>
+                  </attribute>
+                  <layout class="QVBoxLayout" name="verticalLayout_96">
+                   <item>
+                    <widget class="QToolButton" name="toolButton_28">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>日志数据库表</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer_38">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>336</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_systempara">
+                  <attribute name="label">
+                   <string>系统参数库</string>
+                  </attribute>
+                 </widget>
+                </widget>
+               </item>
+               <item>
+                <widget class="QTableView" name="tableView_2"/>
+               </item>
+              </layout>
              </item>
             </layout>
            </widget>

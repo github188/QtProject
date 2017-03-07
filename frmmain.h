@@ -78,6 +78,7 @@ private slots:
     void slotSetRepair();
     //进入故障记录界面
     void slotSetFalut();
+    void slotSetDatabase();
 private:
     Ui::FrmMain *ui;
     QTimer *clockTimer;
