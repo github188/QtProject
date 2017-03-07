@@ -108,6 +108,25 @@
         <file>image/2007_excel_microsoft_office.ico</file>
         <file>image/clear.ico</file>
         <file>image/disk_save.ico</file>
+        <file>image/TissueHandle.ico</file>
+        <file>image/waterclear.ico</file>
+        <file>image/ampps.ico</file>
+        <file>image/database.ico</file>
+        <file>image/error.ico</file>
+        <file>image/filetype_settings.ico</file>
+        <file>image/Medical.ico</file>
+        <file>image/Options.ico</file>
+        <file>image/Options_48px.ico</file>
+        <file>image/tool_config.ico</file>
+        <file>image/warning (2).ico</file>
+        <file>image/warning.ico</file>
+        <file>image/computer_process.ico</file>
+        <file>image/Server_setting.ico</file>
+        <file>image/book_of_record1.ico</file>
+        <file>image/book_of_record2.ico</file>
+        <file>image/Book_of_record3.ico</file>
+        <file>image/book_of_record4.ico</file>
+        <file>image/Office_Word.ico</file>
     </qresource>
     <qresource prefix="/qss">
         <file>qss/black.css</file>

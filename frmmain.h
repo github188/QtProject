@@ -23,7 +23,7 @@ protected:
     void mouseMoveEvent(QMouseEvent *e);
     void mousePressEvent(QMouseEvent *e);
     void mouseReleaseEvent(QMouseEvent *);
-
+    void keyPressEvent(QKeyEvent *e);
 private slots:
     void on_btnMenu_Close_clicked();
     void on_btnMenu_Max_clicked();

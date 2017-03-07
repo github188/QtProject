@@ -70,6 +70,8 @@ FrmMain::FrmMain(QWidget *parent) :
         connect(ui->btnRepair,SIGNAL(clicked(bool)),this,SLOT(slotSetRepair()));
         connect(ui->btnFault,SIGNAL(clicked(bool)),this,SLOT(slotSetFalut()));
         slotSetMainPage();
+        //on_btnMenu_Max_clicked();
+        this->showFullScreen();
 }
 void FrmMain::slotSetMainPage()
 {
@@ -387,4 +389,14 @@ void FrmMain::slotchangedToBlack()
 void FrmMain::slotchangedToNavy()
 {
     myHelper::SetStyle("navy");//天蓝色色风格
+}
+void FrmMain::keyPressEvent(QKeyEvent *e)
+{
+    switch (e->key()) {
+    case Qt::Key_Escape:
+        this->close();
+        break;
+    default:
+        break;
+    }
 }
