@@ -6,6 +6,7 @@
 #include <QMenuBar>
 #include <QToolBar>
 #include <QTimer>
+#include <QSqlTableModel>
 namespace Ui {
 class FrmMain;
 }
@@ -79,6 +80,11 @@ private slots:
     //进入故障记录界面
     void slotSetFalut();
     void slotSetDatabase();
+    void slotBtnCenterControl();
+    void slotbtnOnceDevice();
+    void soltDatabaseAdd();
+    void slotBtnDatabaseSubmit();
+    void slotBtnDatabaseDelete();
 private:
     Ui::FrmMain *ui;
     QTimer *clockTimer;
@@ -89,7 +95,11 @@ private:
     QMenu *changSkinMenu;
     QMenuBar* menuBar;
     QToolBar *toolBar;
+    QSqlTableModel *modelCurrent;
+    QSqlTableModel *modelCenterControl;
+    QSqlTableModel *modelDeviceOne;
     void InitStyle();
+    void databaseDataShow(QSqlTableModel *model,QString tableName);
 };
 
 #endif // FRMMAIN_H

@@ -5,11 +5,12 @@
 #include "QsLog/QsLog.h"
 #include "QsLog/QsLogDest.h"
 #include "QsLog/QsLogLevel.h"
-
+#include <QSqlDatabase>
 QsLogging::Logger& logger = QsLogging::Logger::instance();
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+
     /******配置日志记录系统*******/
     using namespace QsLogging;
     //init the logging mechanism

@@ -325,12 +325,13 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
                         <string notr="true">border:none;
+background-color: rgb(85, 255, 255);
 </string>
                        </property>
                        <property name="text">
@@ -367,8 +368,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="autoFillBackground">
@@ -376,6 +377,7 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="styleSheet">
                         <string notr="true">border:none;
+background-color: rgb(85, 255, 127);
 
 </string>
                        </property>
@@ -388,9 +390,12 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
+                       </property>
+                       <property name="shortcut">
+                        <string>Ctrl+S, Ctrl+S</string>
                        </property>
                        <property name="autoRepeat">
                         <bool>false</bool>
@@ -624,8 +629,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="autoFillBackground">
@@ -645,8 +650,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -676,8 +681,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -693,8 +698,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -718,8 +723,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -734,8 +739,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -759,8 +764,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -776,8 +781,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -801,8 +806,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="autoFillBackground">
@@ -822,8 +827,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1013,8 +1018,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="autoFillBackground">
@@ -1034,8 +1039,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1099,8 +1104,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="autoFillBackground">
@@ -1120,8 +1125,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1311,8 +1316,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="autoFillBackground">
@@ -1328,12 +1333,12 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="icon">
                         <iconset resource="rc.qrc">
-                         <normaloff>:/images/image/Options.ico</normaloff>:/images/image/Options.ico</iconset>
+                         <normaloff>:/images/image/database.ico</normaloff>:/images/image/database.ico</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1363,8 +1368,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -1376,12 +1381,12 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="icon">
                         <iconset resource="rc.qrc">
-                         <normaloff>:/images/image/last.png</normaloff>:/images/image/last.png</iconset>
+                         <normaloff>:/images/image/database.ico</normaloff>:/images/image/database.ico</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1405,8 +1410,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -1421,8 +1426,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1561,8 +1566,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="autoFillBackground">
@@ -1578,12 +1583,12 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="icon">
                         <iconset resource="rc.qrc">
-                         <normaloff>:/images/image/Server_setting.ico</normaloff>:/images/image/Server_setting.ico</iconset>
+                         <normaloff>:/images/image/config.png</normaloff>:/images/image/config.png</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1613,8 +1618,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -1626,12 +1631,12 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="icon">
                         <iconset resource="rc.qrc">
-                         <normaloff>:/images/image/filetype_settings.ico</normaloff>:/images/image/filetype_settings.ico</iconset>
+                         <normaloff>:/images/image/config.png</normaloff>:/images/image/config.png</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1655,8 +1660,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -1668,12 +1673,12 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="icon">
                         <iconset resource="rc.qrc">
-                         <normaloff>:/images/image/Options_48px.ico</normaloff>:/images/image/Options_48px.ico</iconset>
+                         <normaloff>:/images/image/config.png</normaloff>:/images/image/config.png</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1697,8 +1702,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -1714,8 +1719,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1854,8 +1859,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="autoFillBackground">
@@ -1875,8 +1880,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -1906,8 +1911,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -1923,8 +1928,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1948,8 +1953,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -1965,8 +1970,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -1990,8 +1995,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="autoFillBackground">
@@ -2011,8 +2016,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -2042,8 +2047,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -2059,8 +2064,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -2199,8 +2204,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="autoFillBackground">
@@ -2220,8 +2225,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -2251,8 +2256,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -2264,12 +2269,12 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="icon">
                         <iconset resource="rc.qrc">
-                         <normaloff>:/images/image/Options_48px.ico</normaloff>:/images/image/Options_48px.ico</iconset>
+                         <normaloff>:/images/image/Office_Word.ico</normaloff>:/images/image/Office_Word.ico</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -2293,8 +2298,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="styleSheet">
@@ -2306,12 +2311,12 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="icon">
                         <iconset resource="rc.qrc">
-                         <normaloff>:/images/image/question.png</normaloff>:/images/image/question.png</iconset>
+                         <normaloff>:/images/image/Office_Word.ico</normaloff>:/images/image/Office_Word.ico</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>48</width>
-                         <height>48</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="toolButtonStyle">
@@ -2335,8 +2340,8 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="maximumSize">
                         <size>
-                         <width>100</width>
-                         <height>100</height>
+                         <width>16777215</width>
+                         <height>16777215</height>
                         </size>
                        </property>
                        <property name="autoFillBackground">
@@ -2352,12 +2357,12 @@ font: 14pt &quot;宋体&quot;;</string>
                        </property>
                        <property name="icon">
                         <iconset resource="rc.qrc">
-                         <normaloff>:/images/image/move.png</normaloff>:/images/image/move.png</iconset>
+                         <normaloff>:/images/image/Office_Word.ico</normaloff>:/images/image/Office_Word.ico</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
-                         <width>60</width>
-                         <height>60</height>
+                         <width>100</width>
+                         <height>100</height>
                         </size>
                        </property>
                        <property name="autoRepeat">
@@ -16375,12 +16380,12 @@ padding:1px 1px 1px 5px;</string>
            <widget class="QWidget" name="page_database">
             <layout class="QGridLayout" name="gridLayout_86">
              <item row="0" column="0">
-              <layout class="QHBoxLayout" name="horizontalLayout_72">
+              <layout class="QHBoxLayout" name="horizontalLayout_72" stretch="1,5">
                <item>
                 <widget class="QToolBox" name="toolBox">
                  <property name="maximumSize">
                   <size>
-                   <width>200</width>
+                   <width>16777215</width>
                    <height>16777215</height>
                   </size>
                  </property>
@@ -16416,7 +16421,7 @@ padding:1px 1px 1px 5px;</string>
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>183</width>
+                    <width>184</width>
                     <height>450</height>
                    </rect>
                   </property>
@@ -16672,7 +16677,7 @@ padding:1px 1px 1px 5px;</string>
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>200</width>
+                    <width>201</width>
                     <height>393</height>
                    </rect>
                   </property>
@@ -16738,7 +16743,7 @@ padding:1px 1px 1px 5px;</string>
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>200</width>
+                    <width>201</width>
                     <height>393</height>
                    </rect>
                   </property>
@@ -16861,7 +16866,7 @@ padding:1px 1px 1px 5px;</string>
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>200</width>
+                    <width>201</width>
                     <height>393</height>
                    </rect>
                   </property>
@@ -16904,6 +16909,14 @@ padding:1px 1px 1px 5px;</string>
                   </layout>
                  </widget>
                  <widget class="QWidget" name="page_realdata">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>201</width>
+                    <height>393</height>
+                   </rect>
+                  </property>
                   <attribute name="label">
                    <string>实时数据库</string>
                   </attribute>
@@ -17019,6 +17032,14 @@ padding:1px 1px 1px 5px;</string>
                   </layout>
                  </widget>
                  <widget class="QWidget" name="page_event">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>201</width>
+                    <height>393</height>
+                   </rect>
+                  </property>
                   <attribute name="label">
                    <string>事项数据库</string>
                   </attribute>
@@ -17058,6 +17079,14 @@ padding:1px 1px 1px 5px;</string>
                   </layout>
                  </widget>
                  <widget class="QWidget" name="page_logdata">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>201</width>
+                    <height>393</height>
+                   </rect>
+                  </property>
                   <attribute name="label">
                    <string>日志数据库表</string>
                   </attribute>
@@ -17097,6 +17126,14 @@ padding:1px 1px 1px 5px;</string>
                   </layout>
                  </widget>
                  <widget class="QWidget" name="page_systempara">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>201</width>
+                    <height>393</height>
+                   </rect>
+                  </property>
                   <attribute name="label">
                    <string>系统参数库</string>
                   </attribute>
@@ -17104,7 +17141,254 @@ padding:1px 1px 1px 5px;</string>
                 </widget>
                </item>
                <item>
-                <widget class="QTableView" name="tableView_2"/>
+                <widget class="QTabWidget" name="tabWidget">
+                 <property name="currentIndex">
+                  <number>0</number>
+                 </property>
+                 <property name="tabsClosable">
+                  <bool>false</bool>
+                 </property>
+                 <widget class="QWidget" name="tabCenterControl">
+                  <attribute name="title">
+                   <string>集控中心表</string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_83">
+                   <item row="0" column="0">
+                    <layout class="QVBoxLayout" name="verticalLayout_107">
+                     <item>
+                      <widget class="QTableView" name="tableView_2"/>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_73">
+                       <property name="spacing">
+                        <number>20</number>
+                       </property>
+                       <item>
+                        <spacer name="horizontalSpacer_51">
+                         <property name="orientation">
+                          <enum>Qt::Horizontal</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>40</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item>
+                        <widget class="QToolButton" name="btnDatabaseAdd">
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>增加</string>
+                         </property>
+                         <property name="icon">
+                          <iconset resource="rc.qrc">
+                           <normaloff>:/images/image/add.png</normaloff>:/images/image/add.png</iconset>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>24</width>
+                           <height>24</height>
+                          </size>
+                         </property>
+                         <property name="toolButtonStyle">
+                          <enum>Qt::ToolButtonTextBesideIcon</enum>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QToolButton" name="btnDataBaseDelete">
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>删除</string>
+                         </property>
+                         <property name="icon">
+                          <iconset resource="rc.qrc">
+                           <normaloff>:/images/image/clear.ico</normaloff>:/images/image/clear.ico</iconset>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>24</width>
+                           <height>24</height>
+                          </size>
+                         </property>
+                         <property name="toolButtonStyle">
+                          <enum>Qt::ToolButtonTextBesideIcon</enum>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QToolButton" name="btnDatabaseSubmit">
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>提交</string>
+                         </property>
+                         <property name="icon">
+                          <iconset resource="rc.qrc">
+                           <normaloff>:/images/image/msg_info.png</normaloff>:/images/image/msg_info.png</iconset>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>24</width>
+                           <height>24</height>
+                          </size>
+                         </property>
+                         <property name="toolButtonStyle">
+                          <enum>Qt::ToolButtonTextBesideIcon</enum>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <spacer name="horizontalSpacer_48">
+                         <property name="orientation">
+                          <enum>Qt::Horizontal</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>40</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="tab_2">
+                  <attribute name="title">
+                   <string>一次设备表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_3">
+                  <attribute name="title">
+                   <string>二次设备表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_4">
+                  <attribute name="title">
+                   <string>串口通道表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_5">
+                  <attribute name="title">
+                   <string>以太网通道表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_6">
+                  <attribute name="title">
+                   <string>规约参数表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_7">
+                  <attribute name="title">
+                   <string>设备遥测属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_8">
+                  <attribute name="title">
+                   <string>设备遥信属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_9">
+                  <attribute name="title">
+                   <string>设备遥脉属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_10">
+                  <attribute name="title">
+                   <string>设备遥控属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_11">
+                  <attribute name="title">
+                   <string>设备遥调属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_12">
+                  <attribute name="title">
+                   <string>人员管理属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_13">
+                  <attribute name="title">
+                   <string>角色管理属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_14">
+                  <attribute name="title">
+                   <string>历史遥测属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_15">
+                  <attribute name="title">
+                   <string>历史遥信属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_16">
+                  <attribute name="title">
+                   <string>历史遥脉属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_17">
+                  <attribute name="title">
+                   <string>数据字典参数表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_18">
+                  <attribute name="title">
+                   <string>实时遥测属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_19">
+                  <attribute name="title">
+                   <string>实时遥信属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_20">
+                  <attribute name="title">
+                   <string>实时遥脉属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_21">
+                  <attribute name="title">
+                   <string>实时遥控属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_22">
+                  <attribute name="title">
+                   <string>实时遥调属性表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_23">
+                  <attribute name="title">
+                   <string>事项数据库表</string>
+                  </attribute>
+                 </widget>
+                 <widget class="QWidget" name="tab_24">
+                  <attribute name="title">
+                   <string>日志数据库表</string>
+                  </attribute>
+                 </widget>
+                </widget>
                </item>
               </layout>
              </item>

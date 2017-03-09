@@ -5,6 +5,10 @@
 #include "./AppConfig/myapp.h"
 #include "QsLog/QsLog.h"
 #include "./qcustomplot.h"
+#include <QSqlDatabase>
+#include <QSqlQueryModel>
+#include <qsqltablemodel.h>
+#include <QSqlError>
 FrmMain::FrmMain(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::FrmMain)
@@ -43,7 +47,19 @@ FrmMain::FrmMain(QWidget *parent) :
         //重绘，这里可以不用，官方例子有，执行setData函数后自动重绘
         //我认为应该用于动态显示或者是改变坐标轴范围之后的动态显示，我们以后探索
         //ui->qCustomPlot->replot();
-
+        QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+        db.setHostName("localhost");
+        db.setDatabaseName("scada3000");//已建立的数据库名称
+        db.setUserName("root");//用户名称
+        db.setPassword("123");//密码
+        bool ok = db.open();//如果成功ok位true，否则为false
+        modelCurrent=NULL;
+        ui->tabWidget->clear();
+        ui->tabWidget->addTab(ui->tabCenterControl,"数据库表");
+        modelCenterControl = new QSqlTableModel(this);
+        modelCenterControl->setEditStrategy(QSqlTableModel::OnManualSubmit);
+        modelDeviceOne = new QSqlTableModel(this);
+        modelDeviceOne->setEditStrategy(QSqlTableModel::OnManualSubmit);
         connect(ui->btnMainPage,SIGNAL(clicked(bool)),this,SLOT(slotSetMainPage()));
         connect(ui->btnTissueHandle,SIGNAL(clicked(bool)),this,SLOT(slotSetTisseHandle()));
         connect(ui->btnSysClear,SIGNAL(clicked(bool)),this,SLOT(slotSetSysClear()));
@@ -70,9 +86,70 @@ FrmMain::FrmMain(QWidget *parent) :
         connect(ui->btnRepair,SIGNAL(clicked(bool)),this,SLOT(slotSetRepair()));
         connect(ui->btnFault,SIGNAL(clicked(bool)),this,SLOT(slotSetFalut()));
         connect(ui->btnDatabase,SIGNAL(clicked(bool)),this,SLOT(slotSetDatabase()));
+        connect(ui->btnCenterControl,SIGNAL(clicked(bool)),this,SLOT(slotBtnCenterControl()));
+        connect(ui->btnOnceDevice,SIGNAL(clicked(bool)),this,SLOT(slotbtnOnceDevice()));
+        connect(ui->btnDatabaseAdd,SIGNAL(clicked(bool)),this,SLOT(soltDatabaseAdd()));
+        connect(ui->btnDatabaseSubmit,SIGNAL(clicked(bool)),this,SLOT(slotBtnDatabaseSubmit()));
+        connect(ui->btnDataBaseDelete,SIGNAL(clicked(bool)),this,SLOT(slotBtnDatabaseDelete()));
         slotSetMainPage();
         //on_btnMenu_Max_clicked();
-        this->showFullScreen();
+        //this->showFullScreen();
+}
+void FrmMain::slotBtnDatabaseDelete()
+{
+    int curRow = ui->tableView_2->currentIndex().row();
+    //获取选中的行
+    modelCurrent->removeRow(curRow);
+    //删除该行
+    int ok = QMessageBox::warning(this,tr("删除当前行!"),tr("你确定"
+    "删除当前行吗？"),
+    QMessageBox::Yes,QMessageBox::No);
+    if(ok == QMessageBox::No)
+    {
+        modelCurrent->revertAll();//如果不删除，则撤销
+    }
+    else
+    {
+        modelCurrent->submitAll(); //否则提交，在数据库中删除该行
+    }
+}
+void FrmMain::slotBtnDatabaseSubmit()
+{
+    modelCurrent->database().transaction();//开始事务操作
+    if (modelCurrent->submitAll()) {
+    modelCurrent->database().commit();//提交
+    } else {
+    modelCurrent->database().rollback();//回滚
+    QMessageBox::warning(this,tr("tableModel"),
+    tr("数据库错误: %1")
+    .arg(modelCurrent->lastError().text()));
+    }
+}
+void FrmMain::soltDatabaseAdd()
+{
+    if(modelCurrent!=NULL)
+    {
+        int rowNum = modelCurrent->rowCount();//得到数据表的行数
+        modelCurrent->insertRow(rowNum);//在最后一行插入新的行
+    }
+}
+void FrmMain::slotbtnOnceDevice()
+{
+    databaseDataShow(modelDeviceOne,"Para_DeviceOne");
+    ui->tabWidget->setTabText(ui->tabWidget->currentIndex(),"一次设备表");
+}
+void FrmMain::slotBtnCenterControl()
+{
+    databaseDataShow(modelCenterControl,"para_station");
+    ui->tabWidget->setTabText(ui->tabWidget->currentIndex(),"集控中心表");
+}
+void FrmMain::databaseDataShow(QSqlTableModel *model,QString tableName)
+{
+    modelCurrent=model;
+    model->setTable(tableName);
+    model->select();
+    ui->tableView_2->setModel(model);
+    ui->tableView_2->setFocus();
 }
 void FrmMain::slotSetMainPage()
 {

@@ -488,3 +488,41 @@ QLCDNumber{
     border:0px;
 
 }
+QToolBoxButton
+ { /* all types of tool button */
+        min-height:30 px;
+        alignment: center;
+   /* border: 2px solid #8f8f91;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #f6f7fa, stop: 1 #dadbde);*/
+
+}
+
+QToolBox {
+        text-align:center;
+        border:1px solid #C0DCF2;
+        background: transparent;
+        spacing: 0px;
+}
+
+QToolBox::tab {
+        text-align:center;
+        border-radius: 0px;
+        color: #386487;
+        border: 1px solid #C4C4C3;
+        background:  #C0DCF2;
+}
+QToolBox::tab:hover{
+        background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #50A3F0, stop:1 #489CEA);
+}
+
+QToolBox::tab:pressed{
+        background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #0F7DBE, stop:1 #1582C3);
+}
+QToolBox::tab:selected { /* italicize selected tabs */
+        background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #50A3F0, stop:1 #489CEA);
+    font: 18 bold;
+    color: black;
+
+}
+
