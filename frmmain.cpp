@@ -53,7 +53,13 @@ FrmMain::FrmMain(QWidget *parent) :
         db.setUserName("root");//用户名称
         db.setPassword("123");//密码
         bool ok = db.open();//如果成功ok位true，否则为false
-        if()
+        if(!ok)
+        {
+
+            QLOG_ERROR()<<"数据库打开失败";
+            this->close();
+
+        }
         modelCurrent=NULL;
         ui->tabWidget->clear();
         ui->tabWidget->addTab(ui->tabCenterControl,"数据库表");
