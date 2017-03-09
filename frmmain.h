@@ -98,6 +98,7 @@ private:
     QSqlTableModel *modelCurrent;
     QSqlTableModel *modelCenterControl;
     QSqlTableModel *modelDeviceOne;
+    QSqlTableModel *modelDevicetwo;
     void InitStyle();
     void databaseDataShow(QSqlTableModel *model,QString tableName);
 };

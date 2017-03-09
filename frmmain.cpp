@@ -53,11 +53,12 @@ FrmMain::FrmMain(QWidget *parent) :
         db.setUserName("root");//用户名称
         db.setPassword("123");//密码
         bool ok = db.open();//如果成功ok位true，否则为false
+        if()
         modelCurrent=NULL;
         ui->tabWidget->clear();
         ui->tabWidget->addTab(ui->tabCenterControl,"数据库表");
         modelCenterControl = new QSqlTableModel(this);
-        modelCenterControl->setEditStrategy(QSqlTableModel::OnManualSubmit);
+        modelCenterControl->setEditStrategy(QSqlTableModel::OnManualSubmit);//只允许手动提交
         modelDeviceOne = new QSqlTableModel(this);
         modelDeviceOne->setEditStrategy(QSqlTableModel::OnManualSubmit);
         connect(ui->btnMainPage,SIGNAL(clicked(bool)),this,SLOT(slotSetMainPage()));
@@ -92,7 +93,7 @@ FrmMain::FrmMain(QWidget *parent) :
         connect(ui->btnDatabaseSubmit,SIGNAL(clicked(bool)),this,SLOT(slotBtnDatabaseSubmit()));
         connect(ui->btnDataBaseDelete,SIGNAL(clicked(bool)),this,SLOT(slotBtnDatabaseDelete()));
         slotSetMainPage();
-        //on_btnMenu_Max_clicked();
+
         //this->showFullScreen();
 }
 void FrmMain::slotBtnDatabaseDelete()
@@ -116,13 +117,15 @@ void FrmMain::slotBtnDatabaseDelete()
 void FrmMain::slotBtnDatabaseSubmit()
 {
     modelCurrent->database().transaction();//开始事务操作
-    if (modelCurrent->submitAll()) {
-    modelCurrent->database().commit();//提交
-    } else {
+    if (modelCurrent->submitAll())
+    {
+        modelCurrent->database().commit();//提交
+    }
+    else
+    {
     modelCurrent->database().rollback();//回滚
-    QMessageBox::warning(this,tr("tableModel"),
-    tr("数据库错误: %1")
-    .arg(modelCurrent->lastError().text()));
+    QMessageBox::warning(this,tr("tableModel"),tr("数据库错误: %1").arg(modelCurrent->lastError().text()));
+    modelCurrent->revertAll();//如果不删除，则撤销
     }
 }
 void FrmMain::soltDatabaseAdd()
